@@ -1,4 +1,4 @@
-def employee_details(name, emp_id, department, salary):
+def emp_details(name, emp_id, department, salary):
     result = (
         f"Employee Name: {name}\n"
         f"Employee ID: {emp_id}\n"
@@ -13,4 +13,4 @@ if __name__ == "__main__":
     department = "IT"
     salary = "55000"
     
-    print(employee_details(name, emp_id, department, salary))
+    print(emp_details(name, emp_id, department, salary))
